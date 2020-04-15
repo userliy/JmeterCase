@@ -1,0 +1,5 @@
+git ls-files 查看暂存区中文件信息
+
+git remote add origin https://github.com/userliy/JmeterCase.git
+
+git push -u origin master
