@@ -1,5 +1,24 @@
+设置全局
+git  config --global  user.name "userliy"
+git  config --global  user.email "sjbf1314@163.com"
+
+
 git ls-files 查看暂存区中文件信息
+本地和远程关联
+ssh -T git@github.com 本地和远程是否能远程通信  .ssh 文件多一个host文件
+
+本地项目和远程项目关联
+git init 初始化本地仓库
+创建远程仓库 -- new
+git remote add origin git@github.com:userliy/JmeterCase.git
+
+发布项目
+git add . //工作区所有文件--暂存区
+git commit -m "注释说明" // 暂存区--本地分支（默认master）
+git push -u origin master
 
 git remote add origin https://github.com/userliy/JmeterCase.git
 
 git push -u origin master
+
+git remote add origin git@github.com:userliy/JmeterCase.git
